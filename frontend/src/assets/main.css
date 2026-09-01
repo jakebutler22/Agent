@@ -1,0 +1,19 @@
+@import './base.css';
+
+body {
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgb(196 81 37 / 10%), transparent 30rem),
+    #f5f0e8;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+#app {
+  min-height: 100vh;
+}
+
