@@ -4,7 +4,7 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { requestCalculation } from './services/calculator'
 
 const MAX_DISPLAY_LENGTH = 12
-const MAX_HISTORY_LENGTH = 3
+const MAX_HISTORY_LENGTH = 5
 
 const operationSymbols = {
   add: '+',
