@@ -3,17 +3,14 @@
 body {
   min-width: 320px;
   background:
-    radial-gradient(circle at top left, rgb(196 81 37 / 10%), transparent 30rem),
-    #f5f0e8;
+    radial-gradient(circle at 50% 0%, rgb(255 255 255 / 42%), transparent 34rem),
+    #9f9f9b;
 }
 
-button,
-input,
-select {
+button {
   font: inherit;
 }
 
 #app {
   min-height: 100vh;
 }
-
